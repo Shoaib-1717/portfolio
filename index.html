@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Muhammad Shoaib | Full-Stack MERN Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ══ NAV (Flexbox) ══ -->
+<nav id="main-nav">
+  <a href="#hero" class="nav-logo">
+    <span class="logo-bracket">&lt;</span>MS<span class="logo-bracket">/&gt;</span>
+  </a>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#achievements">Certs</a></li>
+    <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+  </ul>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section id="hero">
+  <div class="hero-bg-glow"></div>
+  <div class="container">
+    <div class="hero-grid">
+
+      <!-- Text -->
+      <div class="hero-content">
+        <div class="hero-badge"><span class="dot"></span>Available for Hire</div>
+        <div class="silver-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M12 14v7M9 18l3 3 3-3"/></svg>
+          Silver Medalist — BS CS · University of Lahore 2025
+        </div>
+
+        <h1 class="hero-name">
+          <span class="name-first">Muhammad</span>
+          <span class="name-last">Shoaib</span>
+        </h1>
+
+        <div class="hero-type-wrap"><span class="prompt-char">&gt;&nbsp;</span><span id="hero-typed"></span></div>
+
+        <p class="hero-tagline">
+          <strong>Full-Stack MERN Engineer</strong> building scalable web &amp; mobile
+          applications — from pixel-perfect UIs to production-grade APIs.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">⚡ View My Work</a>
+          <a href="#contact"  class="btn-outline">✉ Get in Touch</a>
+        </div>
+
+        <div class="hero-stat-row">
+          <div class="hero-stat"><strong>3.86</strong><span>CGPA / 4.0</span></div>
+          <div class="hero-stat"><strong>🥈</strong><span>Silver Medal</span></div>
+          <div class="hero-stat"><strong>15+</strong><span>Projects</span></div>
+          <div class="hero-stat"><strong>5+</strong><span>Tech Stacks</span></div>
+        </div>
+      </div>
+
+      <!-- Avatar -->
+      <div class="hero-visual">
+        <div class="avatar-wrap">
+          <div class="avatar-spin-ring"></div>
+          <div class="avatar-spin-ring ring2"></div>
+          <div class="avatar-img-wrap">
+            <img
+              src="C:/Users/Cybez/Desktop/sapadasoft/portfolio/picture.jpg"
+              alt="Muhammad Shoaib"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+            />
+            <div class="avatar-fallback">MS</div>
+          </div>
+          <div class="avatar-medal">🥈</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ SKILLS (CSS Grid) ══ -->
+<section id="skills" class="section-pad bg2">
+  <div class="container">
+
+    <div class="skills-intro reveal">
+      <div class="section-eyebrow">What I Do</div>
+      <h2 class="section-title">Skills &amp; <span>Expertise</span></h2>
+      <p class="section-sub">Full-stack engineer specialising in the MERN ecosystem — from pixel-perfect UIs to production-grade APIs.</p>
+      <div class="divider"></div>
+    </div>
+
+    <div class="skills-grid reveal">
+      <div class="skill-chip"><div class="skill-icon">🌐</div><div class="skill-label">HTML5</div></div>
+      <div class="skill-chip"><div class="skill-icon">🎨</div><div class="skill-label">CSS3</div></div>
+      <div class="skill-chip"><div class="skill-icon">⚡</div><div class="skill-label">JavaScript</div></div>
+      <div class="skill-chip"><div class="skill-icon">🔷</div><div class="skill-label">TypeScript</div></div>
+      <div class="skill-chip"><div class="skill-icon">⚛️</div><div class="skill-label">React.js</div></div>
+      <div class="skill-chip"><div class="skill-icon">▲</div><div class="skill-label">Next.js</div></div>
+      <div class="skill-chip"><div class="skill-icon">📱</div><div class="skill-label">React Native</div></div>
+      <div class="skill-chip"><div class="skill-icon">🟢</div><div class="skill-label">Node.js</div></div>
+      <div class="skill-chip"><div class="skill-icon">🏗️</div><div class="skill-label">NestJS</div></div>
+      <div class="skill-chip"><div class="skill-icon">🚂</div><div class="skill-label">Express.js</div></div>
+      <div class="skill-chip"><div class="skill-icon">🍃</div><div class="skill-label">MongoDB</div></div>
+      <div class="skill-chip"><div class="skill-icon">🐘</div><div class="skill-label">PostgreSQL</div></div>
+      <div class="skill-chip"><div class="skill-icon">☁️</div><div class="skill-label">AWS</div></div>
+      <div class="skill-chip"><div class="skill-icon">🐙</div><div class="skill-label">Git</div></div>
+      <div class="skill-chip"><div class="skill-icon">🐳</div><div class="skill-label">Docker</div></div>
+    </div>
+
+    <div class="reveal" style="transition-delay:.15s">
+      <p class="proficiency-title">// Proficiency</p>
+      <div class="prof-grid">
+        <div class="prof-item"><div class="prof-meta"><span>Frontend / Design</span><span>80%</span></div><div class="prof-bar"><div class="prof-fill" data-width="80"></div></div></div>
+        <div class="prof-item"><div class="prof-meta"><span>Backend</span><span>75%</span></div><div class="prof-bar"><div class="prof-fill" data-width="75"></div></div></div>
+        <div class="prof-item"><div class="prof-meta"><span>Database Design</span><span>90%</span></div><div class="prof-bar"><div class="prof-fill" data-width="90"></div></div></div>
+        <div class="prof-item"><div class="prof-meta"><span>Cloud &amp; Deployment</span><span>60%</span></div><div class="prof-bar"><div class="prof-fill" data-width="60"></div></div></div>
+      </div>
+    </div>
+
+    <div class="what-grid reveal" style="transition-delay:.2s">
+      <div class="what-card"><div class="what-icon">🖥️</div><div class="what-title">Frontend Development</div><div class="what-desc">Scalable frontends using React.js, Next.js, Redux, and TypeScript with pixel-perfect UI implementation.</div></div>
+      <div class="what-card"><div class="what-icon">⚙️</div><div class="what-title">Backend Systems</div><div class="what-desc">Secure backend systems and REST APIs using Node.js, Express.js, and NestJS with robust authentication.</div></div>
+      <div class="what-card"><div class="what-icon">🗄️</div><div class="what-title">Database Architecture</div><div class="what-desc">SQL/NoSQL architectures using MySQL, PostgreSQL, MongoDB, and SQLite — optimised for scale.</div></div>
+      <div class="what-card"><div class="what-icon">☁️</div><div class="what-title">Cloud &amp; Integrations</div><div class="what-desc">Third-party integrations: AWS, payment gateways, authentication systems, and cloud deployments.</div></div>
+      <div class="what-card"><div class="what-icon">📱</div><div class="what-title">Mobile Development</div><div class="what-desc">Cross-platform React Native apps with optimised state management, reusable architecture, and smooth UX.</div></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══ ABOUT ══ -->
+<section id="about" class="section-pad">
+  <div class="container">
+    <div class="about-grid">
+
+      <div class="reveal-left">
+        <div class="section-eyebrow">About Me</div>
+        <h2 class="section-title">Crafting <span>Scalable</span> Digital Solutions</h2>
+        <div class="divider"></div>
+        <div class="about-body">
+          <p>I'm a <strong>Full-Stack MERN Engineer</strong> and proud <strong>Silver Medalist</strong> from Lahore, Pakistan. I graduated from the University of Lahore with a <strong>CGPA of 3.86/4.0</strong> in BS Computer Science (2021–2025).</p>
+          <p>From designing normalised database schemas to shipping production React Native apps, I enjoy working across the entire stack — taking ownership of problems, not just tasks.</p>
+          <p>I'm actively seeking <strong>full-time or freelance opportunities</strong> where I can ship real value and grow with a strong engineering team.</p>
+        </div>
+      </div>
+
+      <div class="reveal-right">
+        <div class="section-eyebrow">Education</div>
+        <h2 class="section-title" style="font-size:1.45rem;margin-bottom:1.4rem;">Academic <span>Background</span></h2>
+        <div class="edu-stack">
+          <div class="edu-card">
+            <div class="edu-tag">University</div>
+            <div class="edu-school">The University of Lahore</div>
+            <div class="edu-degree">BS Computer Science &nbsp;🥈 Silver Medalist</div>
+            <div class="edu-years">2021 – 2025 &nbsp;·&nbsp; CGPA 3.86 / 4.0</div>
+            <div class="edu-desc">Focused on software engineering, scalable systems, web technologies, and full-stack application development.</div>
+            <ul class="edu-list">
+              <li>Built multiple MERN stack projects during academic training</li>
+              <li>Worked on frontend, backend, database systems and software architecture</li>
+            </ul>
+          </div>
+          <div class="edu-card">
+            <div class="edu-tag">College</div>
+            <div class="edu-school">Superior College</div>
+            <div class="edu-degree">Intermediate — FSC Pre-Engineering</div>
+            <div class="edu-years">2018 – 2020</div>
+            <div class="edu-desc">Mathematics and Physics foundation building early programming and logical thinking skills.</div>
+            <ul class="edu-list">
+              <li>Learned core programming fundamentals and problem-solving</li>
+              <li>Built early small projects using basic programming concepts</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ EXPERIENCE (3 Flex cards) ══ -->
+<section id="experience" class="section-pad bg2">
+  <div class="container">
+    <div class="reveal" style="margin-bottom:2.5rem;">
+      <div class="section-eyebrow">Experience</div>
+      <h2 class="section-title">Professional <span>Journey</span></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="flex-cards">
+      <div class="exp-card flex-card reveal" style="transition-delay:.05s">
+        <div class="card-glow"></div>
+        <div class="exp-num">01 / Full-Stack</div>
+        <div class="exp-role">MERN Stack Developer</div>
+        <div class="exp-place">Freelance / Remote Projects</div>
+        <div class="exp-period">2022 – Present</div>
+        <div class="exp-desc">Delivered end-to-end web applications for clients — e-commerce platforms, dashboards, and SaaS tools. Handled UI design, API development, and AWS deployment.</div>
+        <div class="tag-row"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">MongoDB</span><span class="tag">AWS</span></div>
+      </div>
+      <div class="exp-card flex-card reveal" style="transition-delay:.12s">
+        <div class="card-glow"></div>
+        <div class="exp-num">02 / Backend</div>
+        <div class="exp-role">Backend API Engineer</div>
+        <div class="exp-place">Academic &amp; Personal Projects</div>
+        <div class="exp-period">2021 – 2023</div>
+        <div class="exp-desc">Built RESTful APIs with Express.js and NestJS. Implemented JWT authentication, role-based access control, and integrations with third-party payment and cloud services.</div>
+        <div class="tag-row"><span class="tag">NestJS</span><span class="tag">Express</span><span class="tag">PostgreSQL</span><span class="tag">JWT</span></div>
+      </div>
+      <div class="exp-card flex-card reveal" style="transition-delay:.20s">
+        <div class="card-glow"></div>
+        <div class="exp-num">03 / Mobile</div>
+        <div class="exp-role">React Native Developer</div>
+        <div class="exp-place">Cross-Platform App Projects</div>
+        <div class="exp-period">2023 – Present</div>
+        <div class="exp-desc">Developed cross-platform mobile applications with Redux Toolkit for state management. Focused on reusable component architecture and smooth native animations.</div>
+        <div class="tag-row"><span class="tag">React Native</span><span class="tag">Redux</span><span class="tag">TypeScript</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FEATURED PROJECTS (3 Flex cards) ══ -->
+<section id="projects" class="section-pad">
+  <div class="container">
+    <div class="reveal" style="margin-bottom:2.5rem;">
+      <div class="section-eyebrow">Featured Projects</div>
+      <h2 class="section-title">Things I've <span>Built</span></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="flex-cards">
+      <div class="proj-card flex-card reveal" style="transition-delay:.05s">
+        <div class="proj-thumb">🛍️</div>
+        <div class="proj-body">
+          <div class="proj-name">E-Commerce Platform</div>
+          <div class="proj-desc">Full-stack MERN e-commerce with product catalogue, cart, Stripe payments, admin dashboard, and real-time inventory management.</div>
+          <div class="tag-row violet"><span class="tag v">React</span><span class="tag v">Node.js</span><span class="tag v">MongoDB</span><span class="tag v">Stripe</span></div>
+          <div class="proj-links"><a href="#" class="proj-link">⚡ Live Demo</a><a href="#" class="proj-link">🐙 GitHub</a></div>
+        </div>
+      </div>
+      <div class="proj-card flex-card reveal" style="transition-delay:.12s">
+        <div class="proj-thumb">📊</div>
+        <div class="proj-body">
+          <div class="proj-name">SaaS Analytics Dashboard</div>
+          <div class="proj-desc">Real-time analytics dashboard with multi-tenancy, RBAC, charts, and a PostgreSQL-backed reporting engine built on Next.js + NestJS.</div>
+          <div class="tag-row violet"><span class="tag v">Next.js</span><span class="tag v">NestJS</span><span class="tag v">PostgreSQL</span><span class="tag v">TS</span></div>
+          <div class="proj-links"><a href="#" class="proj-link">⚡ Live Demo</a><a href="#" class="proj-link">🐙 GitHub</a></div>
+        </div>
+      </div>
+      <div class="proj-card flex-card reveal" style="transition-delay:.20s">
+        <div class="proj-thumb">📱</div>
+        <div class="proj-body">
+          <div class="proj-name">Social App — React Native</div>
+          <div class="proj-desc">Cross-platform social networking app with real-time chat via Socket.io, push notifications, AWS S3 media uploads, and smooth animations.</div>
+          <div class="tag-row violet"><span class="tag v">React Native</span><span class="tag v">Socket.io</span><span class="tag v">AWS S3</span></div>
+          <div class="proj-links"><a href="#" class="proj-link">⚡ Live Demo</a><a href="#" class="proj-link">🐙 GitHub</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ ACHIEVEMENTS (3 Flex cards) ══ -->
+<section id="achievements" class="section-pad bg2">
+  <div class="container">
+    <div class="reveal" style="margin-bottom:2.5rem;">
+      <div class="section-eyebrow">Achievements &amp; Certifications</div>
+      <h2 class="section-title">Recognition &amp; <span>Learning</span></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="flex-cards">
+      <div class="ach-card flex-card reveal" style="transition-delay:.05s">
+        <div class="ach-icon-wrap">🥈</div>
+        <div>
+          <div class="ach-title">Silver Medalist</div>
+          <div class="ach-org">University of Lahore · BS CS 2025</div>
+          <div class="ach-desc">Ranked 2nd in the entire BS Computer Science cohort with a CGPA of 3.86/4.0 — recognised at the annual convocation ceremony.</div>
+        </div>
+      </div>
+      <div class="ach-card flex-card reveal" style="transition-delay:.12s">
+        <div class="ach-icon-wrap">☁️</div>
+        <div>
+          <div class="ach-title">AWS Cloud Practitioner</div>
+          <div class="ach-org">Amazon Web Services · 2024</div>
+          <div class="ach-desc">Certified in AWS fundamentals covering core cloud concepts, EC2, S3, RDS, IAM, and deployment best practices.</div>
+        </div>
+      </div>
+      <div class="ach-card flex-card reveal" style="transition-delay:.20s">
+        <div class="ach-icon-wrap">⚛️</div>
+        <div>
+          <div class="ach-title">Meta Front-End Developer</div>
+          <div class="ach-org">Meta / Coursera · 2023</div>
+          <div class="ach-desc">Completed the full Meta Front-End Developer Professional Certificate covering React, responsive design, and UX principles.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CONTACT ══ -->
+<section id="contact" class="section-pad">
+  <div class="container">
+    <div class="reveal" style="margin-bottom:2.5rem;text-align:center;">
+      <div class="section-eyebrow">Contact Me</div>
+      <h2 class="section-title">Let's Build Something <span>Together</span></h2>
+      <p class="section-sub" style="margin:.75rem auto 0;">Open to full-time roles, freelance projects, and collaborations. I reply fast.</p>
+      <div class="divider" style="margin:1.25rem auto 0;"></div>
+    </div>
+    <div class="contact-wrap">
+
+      <div class="reveal-left">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="ci-icon">
+              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2A19.79 19.79 0 013.09 5.18 2 2 0 015.09 3h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L9.09 10.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div><div class="ci-label">Phone / WhatsApp</div><div class="ci-val">+92 348 4884124</div></div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">
+              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div><div class="ci-label">Email</div><div class="ci-val">muhammadshoaib@email.com</div></div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">
+              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div><div class="ci-label">Location</div><div class="ci-val">Lahore, Punjab, Pakistan</div></div>
+          </div>
+        </div>
+
+        <p class="social-heading">// Connect</p>
+        <div class="social-row">
+          <a href="https://facebook.com" target="_blank" class="social-btn fb">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            Muhammad Shoaib
+          </a>
+          <a href="https://instagram.com/muhammad_shoaib_1717" target="_blank" class="social-btn ig">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            muhammad_shoaib_1717
+          </a>
+        </div>
+      </div>
+
+      <div class="reveal-right">
+        <div class="contact-form">
+          <div class="form-row">
+            <div class="form-group"><label class="form-label">Your Name</label><input class="form-input" type="text" placeholder="John Doe"/></div>
+            <div class="form-group"><label class="form-label">Email Address</label><input class="form-input" type="email" placeholder="john@example.com"/></div>
+          </div>
+          <div class="form-group"><label class="form-label">Subject</label><input class="form-input" type="text" placeholder="Project Inquiry / Job Offer"/></div>
+          <div class="form-group"><label class="form-label">Message</label><textarea class="form-textarea" placeholder="Tell me about your project or opportunity…"></textarea></div>
+          <button class="btn-primary" onclick="alert('Message sent! Connect a backend to activate.')">⚡ Send Message</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo">Muhammad <span>Shoaib</span></div>
+      <nav class="footer-links">
+        <a href="#hero">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer-copy">© 2025 <span>Muhammad Shoaib</span> · Built with passion</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* Hamburger */
+const ham = document.getElementById('hamburger');
+const navLinks = document.getElementById('nav-links');
+ham.addEventListener('click', () => { ham.classList.toggle('open'); navLinks.classList.toggle('open'); });
+navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { ham.classList.remove('open'); navLinks.classList.remove('open'); }));
+
+/* Nav scroll */
+const mainNav = document.getElementById('main-nav');
+window.addEventListener('scroll', () => mainNav.classList.toggle('scrolled', window.scrollY > 24), { passive: true });
+
+/* Typewriter */
+const phrases = ['Full-Stack MERN Engineer','React & Next.js Developer','Node.js & NestJS Expert','React Native Developer','Database Architect'];
+let pi=0,ci=0,del=false;
+const typed=document.getElementById('hero-typed');
+function typeLoop(){
+  const p=phrases[pi];
+  if(!del){typed.textContent=p.slice(0,++ci);if(ci===p.length){del=true;setTimeout(typeLoop,1900);return;}}
+  else{typed.textContent=p.slice(0,--ci);if(ci===0){del=false;pi=(pi+1)%phrases.length;}}
+  setTimeout(typeLoop,del?42:78);
+}
+typeLoop();
+
+/* Scroll reveal */
+const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}}),{threshold:0.1,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.reveal,.reveal-left,.reveal-right').forEach(r=>obs.observe(r));
+
+/* Prof bars */
+const bObs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.querySelectorAll('.prof-fill').forEach(f=>f.style.width=f.dataset.width+'%');bObs.unobserve(e.target);}}),{threshold:0.25});
+document.querySelectorAll('.prof-grid').forEach(g=>bObs.observe(g));
+
+/* Skill chips stagger */
+const cObs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.querySelectorAll('.skill-chip').forEach((c,i)=>{c.style.transitionDelay=i*0.04+'s';c.classList.add('chip-pop');});}}),{threshold:0.1});
+document.querySelectorAll('.skills-grid').forEach(g=>cObs.observe(g));
+</script>
+</body>
+</html>
